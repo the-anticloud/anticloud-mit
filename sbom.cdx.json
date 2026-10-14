@@ -1,0 +1,46 @@
+{
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.5",
+  "serialNumber": "urn:uuid:c122906f-757c-5b05-bc47-b5bb54c317b6",
+  "version": 1,
+  "metadata": {
+    "timestamp": "2026-10-05T16:42:12Z",
+    "component": {
+      "type": "application",
+      "name": "MIT",
+      "version": "180d2586ce87",
+      "bom-ref": "pkg:generic/anticloud/MIT@180d2586ce87",
+      "purl": "pkg:generic/anticloud/MIT@180d2586ce87",
+      "licenses": [
+        {
+          "license": {
+            "id": "NOASSERTION"
+          }
+        }
+      ]
+    },
+    "properties": [
+      {
+        "name": "anticloud:source-commit",
+        "value": "180d2586ce872360c7771c45af2bde86ec97ba22"
+      },
+      {
+        "name": "anticloud:source-url",
+        "value": "https://github.com/mit-crpg/PINSPEC.git"
+      },
+      {
+        "name": "anticloud:tier",
+        "value": "tier-agent"
+      }
+    ]
+  },
+  "components": [
+    {
+      "type": "library",
+      "name": "-march",
+      "version": "=native",
+      "purl": "pkg:pypi/-march@native",
+      "bom-ref": "pypi/-march@=native"
+    }
+  ]
+}
